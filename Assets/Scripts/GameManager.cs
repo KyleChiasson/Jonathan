@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -12,4 +11,9 @@ public class GameManager : MonoBehaviour
         else Destroy(this);
     }
     public SOScene startingScene;
+    public TMP_Text character1Text;
+    public TMP_Text character2Text;
+
+    //advance dialogue
+    //advance scene
 }
