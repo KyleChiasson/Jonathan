@@ -9,7 +9,6 @@ public class SOConversation : ScriptableObject
     }
     public dialogue[] speech;
     public string[] choices;
-    public string[][] choiceDialogue;
     public int[] choiceStressImpact;
     public SOConversation[] outcomes;
 }
