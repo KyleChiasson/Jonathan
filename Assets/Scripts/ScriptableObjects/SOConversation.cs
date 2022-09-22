@@ -2,6 +2,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Conversation", menuName = "SO/Conversation")]
 public class SOConversation : ScriptableObject
 {
+    [System.Serializable]
     public class dialogue
     {
         public SOCharacter character;
