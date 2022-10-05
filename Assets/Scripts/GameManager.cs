@@ -184,4 +184,9 @@ public class GameManager : MonoBehaviour
         replayButton.SetActive((stress == 60 || stress == 0) ? false : true);
         mainMenuButton.SetActive((stress == 60 || stress == 0) ? true : false);
     }
+    //quit
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
