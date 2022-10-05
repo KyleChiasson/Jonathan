@@ -27,7 +27,7 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
     line: You get paid?? How much?
   - character: {fileID: 11400000, guid: d30d6def8818c9d4e94399af6163a956, type: 2}
-    line: $XX.XX per hour
+    line: $30 per hour
   - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
     line: "*He gets paid more than me? I can\u2019t believe this, what am I even
       worth\u2026*"

@@ -62,6 +62,8 @@ public class GameManager : MonoBehaviour
     private SOConversation currentConversation;
     private int currentDialogue;
     private int stress = 25; //goes between 0-60
+    private int stressHolder1 = 0;
+    private int stressHolder2 = 0;
     private bool choosing = false;
     public Sprite J1;
     public Sprite J2;
@@ -113,7 +115,7 @@ public class GameManager : MonoBehaviour
         button2.interactable = false;
         choice1.text = "";
         choice2.text = "";
-        stress += currentConversation.choiceStressImpact[choice];
+        stressHolder1 = currentConversation.choiceStressImpact[choice];
         currentConversation = currentConversation.outcomes[choice];
         for (int i = 0; i < currentScene.endingConversations.Length; i++)
         {
@@ -129,6 +131,9 @@ public class GameManager : MonoBehaviour
 
     private void AdvanceScene(SOScene newScene)
     {
+        stress += stressHolder2;
+        stressHolder2 = stressHolder1;
+        stressHolder1 = 0;
         character1NameText.text = "";
         character2NameText.text = "";
         character1Image.sprite = blankSprite;
@@ -157,6 +162,10 @@ public class GameManager : MonoBehaviour
     }
     private void EndGame()
     {
+        stress += stressHolder1;
+        stressHolder1 = 0;
+        stress += stressHolder2;
+        stressHolder2 = 0;
         playing = false;
         StartCoroutine(ChangeSleepState(EndCallback));
     }
