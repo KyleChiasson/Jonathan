@@ -49,5 +49,5 @@ MonoBehaviour:
   - We have games?
   choiceStressImpact: 0f00000019000000
   outcomes:
-  - {fileID: 11400000, guid: 78c7fd9ed2d07e14e8063eb3e6652a0f, type: 2}
-  - {fileID: 11400000, guid: 8134ba6da9ea0014892770ee529ca16b, type: 2}
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}
+  - {fileID: 11400000, guid: db009523e61e97c41aae0caec312cbb1, type: 2}
