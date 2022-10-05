@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Boss
   m_EditorClassIdentifier: 
   character_name: Boss
-  art: {fileID: 21300000, guid: 57c38d83166d307439c29ec4322f8ab7, type: 3}
+  art: {fileID: 21300000, guid: 9ea65099102d4174eb4b9d156af5d881, type: 3}

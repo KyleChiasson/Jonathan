@@ -63,6 +63,10 @@ public class GameManager : MonoBehaviour
     private int currentDialogue;
     private int stress = 25; //goes between 0-60
     private bool choosing = false;
+    public Sprite J1;
+    public Sprite J2;
+    public Sprite J3;
+    public Sprite J4;
     private void AdvanceDialogue()
     {
         if (currentDialogue == currentConversation.speech.Length - 1 && currentConversation.choices.Length == 0)
@@ -74,7 +78,14 @@ public class GameManager : MonoBehaviour
         if (currentConversation.speech[currentDialogue].character.character_name == "You")
         {
             character1NameText.text = currentConversation.speech[currentDialogue].character.character_name;
-            character1Image.sprite = currentConversation.speech[currentDialogue].character.art;
+            if(stress < 20)
+                character1Image.sprite = J1;
+            else if (stress < 40)
+                character1Image.sprite = J2;
+            else if (stress < 50)
+                character1Image.sprite = J3;
+            else
+                character1Image.sprite = J4;
             characterText.alignment = TextAlignmentOptions.MidlineLeft;
         }
         else

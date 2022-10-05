@@ -338,6 +338,10 @@ MonoBehaviour:
   choice2: {fileID: 628484898}
   button2: {fileID: 1062852819}
   sleepMat: {fileID: 2100000, guid: 4f57ea53759bd894da077b11f31b1b8f, type: 2}
+  J1: {fileID: 21300000, guid: 43bdc1f7e204c524c9ee21c2003e26a6, type: 3}
+  J2: {fileID: 21300000, guid: d68818e2f95c4d94f90f4f5285cb8b9e, type: 3}
+  J3: {fileID: 21300000, guid: c52999d924b4883428f80cce5ebb771d, type: 3}
+  J4: {fileID: 21300000, guid: 9104c362f9afa284ba297ba789beab6a, type: 3}
   blankSprite: {fileID: 21300000, guid: 0ebaa56f6b771e44c93c4490af38ac81, type: 3}
   gameUI: {fileID: 150891821}
   endUI: {fileID: 1704592201}

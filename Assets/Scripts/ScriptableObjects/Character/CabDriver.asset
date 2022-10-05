@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CabDriver
   m_EditorClassIdentifier: 
   character_name: Cab Driver
-  art: {fileID: 21300000, guid: 4742d08dd43de7a4b9bcb9fff9daad7d, type: 3}
+  art: {fileID: 21300000, guid: e00211f1c9057d64b8f50143a90003ad, type: 3}
