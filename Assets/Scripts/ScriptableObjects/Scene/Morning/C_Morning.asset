@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22ec2241f9dc96468070d59aa0e563e, type: 3}
+  m_Name: C_Morning
+  m_EditorClassIdentifier: 
+  speech:
+  - character: {fileID: 11400000, guid: 8cc40b04ad0a5274a8c55254709484a2, type: 2}
+    line: '*Loud meow*'
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "Why are you always waking me up so early?? I shouldn\u2019t be up for
+      another two hours\u2026 Well, I might as well get ready for work."
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "I\u2019ve been working at this new job for a week or so, but I still don\u2019t
+      know the best way to get there. Should I call a cab or just get on the train?"
+  choices:
+  - Call a cab
+  - Take the train
+  choiceStressImpact: 1400000005000000
+  outcomes:
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}
+  - {fileID: 11400000, guid: db009523e61e97c41aae0caec312cbb1, type: 2}

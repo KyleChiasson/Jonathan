@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22ec2241f9dc96468070d59aa0e563e, type: 3}
+  m_Name: C_Prepare
+  m_EditorClassIdentifier: 
+  speech:
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: 'Sorry Intern, I need to prepare for this meeting we are having. '
+  - character: {fileID: 11400000, guid: d30d6def8818c9d4e94399af6163a956, type: 2}
+    line: "Lame. Well I think I deserve a break so I\u2019m gonna split"
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "*I\u2019ve never seen Intern do anything work-related, not even once\u2026
+      John prepares for meeting*"
+  - character: {fileID: 11400000, guid: 4c2517e95e6aeaf469ed7ed535144fa4, type: 2}
+    line: Welcome to the meeting everyone, there is a bit to discuss today so let's
+      get right to it. We need more money so the higher-ups have tasked us with deciding
+      if adding microtransactions to our video game products would be worth it.
+  choices:
+  - We should use microtransactions
+  - We should not use microtransactions
+  choiceStressImpact: fbfffffff6ffffff
+  outcomes:
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}
+  - {fileID: 11400000, guid: db009523e61e97c41aae0caec312cbb1, type: 2}

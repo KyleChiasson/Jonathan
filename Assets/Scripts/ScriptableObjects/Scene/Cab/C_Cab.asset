@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22ec2241f9dc96468070d59aa0e563e, type: 3}
+  m_Name: C_Cab
+  m_EditorClassIdentifier: 
+  speech:
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "I think I\u2019m going to call a cab."
+  - character: {fileID: 11400000, guid: 39743e337bce9234f9ad67e928dc6812, type: 2}
+    line: '*Gets in cab*'
+  - character: {fileID: 11400000, guid: 0ff00c1982df01141b88f61112465f7a, type: 2}
+    line: '*Silence*'
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "*This guy is creepy! He keeps looking back at me in the mirror\u2026 He
+      also looks like he could snap me in half with no effort. *"
+  - character: {fileID: 11400000, guid: 39743e337bce9234f9ad67e928dc6812, type: 2}
+    line: '*One extremely awkward cab ride later* '
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: '*Calling a cab was a mistake. At least I made it to work in one piece.
+      *'
+  choices: []
+  choiceStressImpact: 
+  outcomes:
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}

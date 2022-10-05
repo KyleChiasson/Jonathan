@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22ec2241f9dc96468070d59aa0e563e, type: 3}
+  m_Name: C_Micro
+  m_EditorClassIdentifier: 
+  speech:
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: '*Microtransactions suck for the consumer, but they ARE proven to work
+      a lot of the time. As much as this pains me, I guess I should give my opinion.*'
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: I think microtransactions would work, the amount of purchases should more
+      than make up for any players that might quit.
+  - character: {fileID: 11400000, guid: 4c2517e95e6aeaf469ed7ed535144fa4, type: 2}
+    line: "You make a very valid point, I will take that into consideration. The
+      meeting was pretty quick, that\u2019s all I had. Have a good evening. "
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "*Even though I don\u2019t want to implement my advice, the meeting wasn\u2019t
+      the worst I guess.*"
+  choices: []
+  choiceStressImpact: 
+  outcomes:
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}

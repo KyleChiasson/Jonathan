@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22ec2241f9dc96468070d59aa0e563e, type: 3}
+  m_Name: C_WhatIfMicro
+  m_EditorClassIdentifier: 
+  speech:
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "*Well, might as well hide the worst holes in my knowledge and ask the
+      better question\u2026*"
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "I don\u2019t really know the impacts of microtransactions on a playerbase
+      too well. I\u2019m sorry."
+  - character: {fileID: 11400000, guid: 4c2517e95e6aeaf469ed7ed535144fa4, type: 2}
+    line: "John, I thought you would have thought a little bit harder about this
+      meeting beforehand. I\u2019m disappointed by your lack of input in this discussion."
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "I\u2019m sorry, I\u2019ll do better next time."
+  - character: {fileID: 11400000, guid: 4c2517e95e6aeaf469ed7ed535144fa4, type: 2}
+    line: "You\u2019d better, you seem to think the world revolves around you but
+      you\u2019d best be careful from now on."
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: Yes sir.
+  - character: {fileID: 11400000, guid: 4c2517e95e6aeaf469ed7ed535144fa4, type: 2}
+    line: "Well that\u2019s all for this quick meeting\u2026 Good evening."
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "*That went badly, what a mess. I just can\u2019t catch a break from the
+      boss\u2026 I just want to go home.*"
+  choices: []
+  choiceStressImpact: 
+  outcomes:
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}

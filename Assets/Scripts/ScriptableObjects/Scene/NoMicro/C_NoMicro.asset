@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22ec2241f9dc96468070d59aa0e563e, type: 3}
+  m_Name: C_NoMicro
+  m_EditorClassIdentifier: 
+  speech:
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: '*In order to keep public relations high, microtransactions should be avoided.
+      Profits should be made elsewhere.*'
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: In order to keep public relations high, microtransactions should be avoided.
+      Profits should be made elsewhere.
+  - character: {fileID: 11400000, guid: 4c2517e95e6aeaf469ed7ed535144fa4, type: 2}
+    line: "That is an interesting take, I like the way you are looking at the problem.
+      Well that\u2019s all for the quick meeting, have a good evening folks."
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "*That didn\u2019t go too bad, maybe I\u2019ll speak up more from now on.
+      *"
+  choices: []
+  choiceStressImpact: 
+  outcomes:
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22ec2241f9dc96468070d59aa0e563e, type: 3}
+  m_Name: C_Evening
+  m_EditorClassIdentifier: 
+  speech:
+  - character: {fileID: 11400000, guid: 8cc40b04ad0a5274a8c55254709484a2, type: 2}
+    line: '*Garfelda meets you at the door*'
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "Wow what a day, I\u2019m glad to be home. There\u2019s nothing like seeing
+      Cat after a long day."
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "I\u2019m so tired after everything that happened, should I spend time
+      eating dinner tonight?"
+  choices:
+  - Eat dinner
+  - Go directly to bed
+  choiceStressImpact: fbffffff00000000
+  outcomes:
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}
+  - {fileID: 11400000, guid: db009523e61e97c41aae0caec312cbb1, type: 2}

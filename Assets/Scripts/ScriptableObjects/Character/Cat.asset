@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8d469963b2fd05428ee41cd6545a278, type: 3}
   m_Name: Cat
   m_EditorClassIdentifier: 
-  art: {fileID: 21300000, guid: dd8c1e2b8ef26a94e8358022454239ff, type: 3}
+  character_name: Garfelda
+  art: {fileID: 21300000, guid: 22d47265c1cb32049a82398a707147e7, type: 3}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22ec2241f9dc96468070d59aa0e563e, type: 3}
+  m_Name: C_Work
+  m_EditorClassIdentifier: 
+  speech:
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "*Oh yeah, there was supposed to be an important meeting today. I guess
+      I should prepare for that\u2026*"
+  - character: {fileID: 11400000, guid: d30d6def8818c9d4e94399af6163a956, type: 2}
+    line: "Hi John. How\u2019s it going? "
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "Hello, Intern. I\u2019m good, I just need to prepare for this meeting
+      today."
+  - character: {fileID: 11400000, guid: d30d6def8818c9d4e94399af6163a956, type: 2}
+    line: "Why prepare? I sure didn\u2019t. You should come hang out at the water
+      cooler with me."
+  choices:
+  - Prepare
+  - Chill
+  choiceStressImpact: f1fffffff6ffffff
+  outcomes:
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}
+  - {fileID: 11400000, guid: db009523e61e97c41aae0caec312cbb1, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22ec2241f9dc96468070d59aa0e563e, type: 3}
+  m_Name: C_TrainWork
+  m_EditorClassIdentifier: 
+  speech:
+  - character: {fileID: 11400000, guid: 4c2517e95e6aeaf469ed7ed535144fa4, type: 2}
+    line: "You barely made it on time John, you\u2019re playing a dangerous game
+      here."
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "I\u2019ll do my best to be punctual sir. "
+  - character: {fileID: 11400000, guid: 4c2517e95e6aeaf469ed7ed535144fa4, type: 2}
+    line: Good.
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "*Wow, Boss is such a micromanager\u2026 This sucks.*"
+  choices: []
+  choiceStressImpact: 
+  outcomes:
+  - {fileID: 11400000, guid: 2ce1e6120ec6fdf47b6101edd248aed6, type: 2}
