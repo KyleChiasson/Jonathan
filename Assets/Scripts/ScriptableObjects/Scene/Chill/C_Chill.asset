@@ -38,12 +38,13 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: 39743e337bce9234f9ad67e928dc6812, type: 2}
     line: '*They head to the meeting*'
   - character: {fileID: 11400000, guid: 4c2517e95e6aeaf469ed7ed535144fa4, type: 2}
-    line: "Welcome to the meeting everyone, there is a bit to discuss today so let's
+    line: Welcome to the meeting everyone, there is a bit to discuss today so let's
       get right to it. We need more money so the higher-ups have tasked us with deciding
-      if adding microtransactions to our video game products would be worth it. John
-      (thought): I don\u2019t know what\u2019s worse, the fact that I don\u2019t
-      know much about microtransactions, or the fact that I didn\u2019t know we even
-      had video game products\u2026 "
+      if adding microtransactions to our video game products would be worth it.
+  - character: {fileID: 11400000, guid: 366d71bcca7ec52449e4cfdff25c6fe5, type: 2}
+    line: "*I don\u2019t know what\u2019s worse, the fact that I don\u2019t know
+      much about microtransactions, or the fact that I didn\u2019t know we even had
+      video game products\u2026 *"
   choices:
   - What would be the impact of microtransactions?
   - We have games?
